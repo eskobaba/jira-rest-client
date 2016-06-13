@@ -24,7 +24,7 @@ public class ProjectTest {
 			logger.info(i++ + "th " + p.toPrettyJsonString() );
 		}
 	}	
-	
+/*	
 	@Test
 	public void getProject() throws IOException, ConfigurationException {
 		ProjectService prjService = new ProjectService();
@@ -33,4 +33,6 @@ public class ProjectTest {
 		
 		logger.info("P=" + prj.toPrettyJsonString());
 	}	
+*/
 }
+

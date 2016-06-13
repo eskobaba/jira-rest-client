@@ -20,7 +20,7 @@ import com.lesstif.jira.issue.Version;
  *
  */
 @Data
-@JsonIgnoreProperties({"assigneeType", "roles"
+@JsonIgnoreProperties({"assigneeType", "roles", "projectTypeKey"
 })
 public class Project extends JsonPrettyString{
 	private String expand;
@@ -32,7 +32,7 @@ public class Project extends JsonPrettyString{
 	private String description;
 	private String name;
 	private String url;
-	
+
 	private DateTime startDate;
 	
 	private Lead lead;

@@ -193,7 +193,7 @@ public class IssueService {
      * Add one or more worklog to an issue.
      *
      * @param worklog Issue object
-     * @param issue
+     * @param issue Issue
      * @return List
      * @throws JsonParseException json parsing failed
      * @throws JsonMappingException json mapping failed
